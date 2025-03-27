@@ -1,27 +1,111 @@
-# ExcelToXml
+# Excel-XML Converter
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.5.
+Una aplicación web moderna y eficiente para convertir archivos Excel (.xlsx, .xls) a formato XML de manera sencilla.
 
-## Development server
+## 🚀 Características
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- **Interfaz intuitiva** con área de arrastrar y soltar para cargar archivos
+- **Soporte multiplataforma** para archivos Excel modernos (.xlsx) y formatos antiguos (.xls)
+- **Mapeo personalizable** de columnas Excel a elementos y atributos XML
+- **Vista previa** del resultado XML antes de la descarga
+- **Conversión en lote** para procesar múltiples hojas o archivos simultáneamente
+- **Plantillas guardables** para configuraciones de mapeo frecuentes
+- **Procesamiento local** que garantiza la privacidad de tus datos
 
-## Code scaffolding
+## 🛠️ Tecnologías
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- Frontend: Angular 18, TypeScript
+- Procesamiento: xlsx (SheetJS) para manejo de Excel, bibliotecas XML nativas
+- Diseño responsivo compatible con dispositivos móviles y escritorio
 
-## Build
+## 📋 Requisitos
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+### Para usuarios
+- Navegador web moderno (Chrome, Firefox, Safari, Edge)
+- Conexión a internet (solo para cargar la aplicación)
 
-## Running unit tests
+### Para desarrolladores
+- Node.js (v16 o superior)
+- Angular CLI v18.2.5 o superior
+- TypeScript 5.5.2 o superior
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## 🔧 Instalación
 
-## Running end-to-end tests
+### Para usuarios
+No se requiere instalación. Simplemente accede a la aplicación desde:
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+```
+https://excel-xml.web.app
+```
 
-## Further help
+### Para desarrolladores
+1. Clona el repositorio
+```
+git clone https://github.com/tu-usuario/excel-xml-converter.git
+cd excel-xml-converter
+```
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+2. Instala las dependencias
+```
+npm install
+```
+
+3. Inicia el servidor de desarrollo
+```
+ng serve
+```
+
+4. Accede a `http://localhost:4200` en tu navegador
+
+## 💡 Uso
+
+1. Accede a la aplicación web
+2. Arrastra y suelta tu archivo Excel o haz clic en el área designada para seleccionarlo
+3. Configura las opciones de mapeo según tus necesidades:
+   - Define la estructura del XML resultante
+   - Asigna columnas Excel a elementos XML
+   - Establece atributos y valores predeterminados
+4. Visualiza la vista previa del XML generado
+5. Descarga el archivo XML resultante
+
+## 🛠️ Tecnologías utilizadas
+
+- **Angular 18**: Framework principal del frontend
+- **TypeScript 5.5**: Lenguaje de programación tipado
+- **Bootstrap 5.3**: Para UI responsiva
+- **ngx-toastr**: Para notificaciones
+- **xlsx (SheetJS)**: Biblioteca para procesamiento de archivos Excel
+- **RxJS**: Para programación reactiva
+
+## ⚙️ Opciones avanzadas
+
+- **Mapeo jerárquico**: Crea XMLs con estructuras anidadas complejas
+- **Filtrado de datos**: Convierte solo las filas que cumplan con criterios específicos
+- **Transformación de datos**: Aplica funciones de transformación durante la conversión
+- **Validación XML**: Verifica el XML resultante contra un esquema XSD
+
+## 🔒 Privacidad y seguridad
+
+Esta aplicación procesa todos los archivos localmente en tu navegador. Ningún dato se envía a servidores externos, garantizando la confidencialidad y seguridad de tu información.
+
+## 🤝 Contribuciones
+
+Las contribuciones son bienvenidas. Si deseas colaborar:
+
+1. Haz fork del repositorio
+2. Crea una rama para tu funcionalidad (`git checkout -b feature/nueva-funcionalidad`)
+3. Realiza tus cambios y haz commit (`git commit -m 'Añadir nueva funcionalidad'`)
+4. Sube tus cambios (`git push origin feature/nueva-funcionalidad`)
+5. Abre un Pull Request
+
+## 📄 Licencia
+
+Este proyecto está licenciado bajo [MIT License](LICENSE).
+
+## 📞 Contacto
+
+Para soporte técnico o consultas: elydeveloperhn@gmail.com
+
+---
+
+Desarrollado con ❤️ por Ely Dev
